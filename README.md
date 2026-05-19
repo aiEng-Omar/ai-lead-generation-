@@ -78,70 +78,7 @@ Requests
 Data Processing
 CSV
 Pandas
-📂 Project Structure
-leadgen-agent/
-│
-├── app/
-│   ├── main.py
-│   ├── routes.py
-│   ├── llm_service.py
-│   ├── search_service.py
-│   ├── scrape_service.py
-│   ├── email_service.py
-│   ├── scoring_service.py
-│   ├── outreach_service.py
-│   ├── export_service.py
-│   └── storage_service.py
-│
-├── dashboard/
-│   └── app.py
-│
-├── exports/
-│   └── leads.csv
-│
-├── .env
-├── requirements.txt
-└── README.md
-⚙️ Installation
-1. Clone Repository
-git clone https://github.com/yourusername/leadgen-agent.git
 
-cd leadgen-agent
-2. Create Virtual Environment
-Windows
-python -m venv .venv
-
-.venv\Scripts\activate
-Mac/Linux
-python3 -m venv .venv
-
-source .venv/bin/activate
-3. Install Dependencies
-pip install -r requirements.txt
-🔑 Environment Variables
-
-Create a .env file:
-
-OPENROUTER_API_KEY=your_api_key_here
-
-Get your API key from:
-
-OpenRouter
-▶️ Run Backend API
-uvicorn app.main:app --reload
-
-Backend URL:
-
-http://127.0.0.1:8000
-
-Swagger Documentation:
-
-http://127.0.0.1:8000/docs
-▶️ Run Dashboard
-
-Open another terminal:
-
-streamlit run dashboard/app.py
 
 🧠 AI Workflow
 
