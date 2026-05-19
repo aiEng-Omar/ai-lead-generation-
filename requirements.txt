@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+requests
+beautifulsoup4
+python-dotenv
+openai
+pandas
+sqlalchemy
+psycopg2-binary
+python-jose
+passlib[bcrypt]
+python-multipart
+openpyxl
