@@ -143,31 +143,6 @@ Open another terminal:
 
 streamlit run dashboard/app.py
 
-Dashboard URL:
-
-http://localhost:8501
-📡 API Example
-POST /generate-leads
-Request
-{
-  "niche": "gyms",
-  "location": "Dubai",
-  "num_leads": 5
-}
-Response
-{
-  "results": [
-    {
-      "company_name": "Example Gym",
-      "website": "https://example.com",
-      "emails": ["info@example.com"],
-      "snippet": "Business description...",
-      "analysis": "AI business analysis...",
-      "score": 8,
-      "outreach": "Generated cold email..."
-    }
-  ]
-}
 🧠 AI Workflow
 
 The platform automatically:
